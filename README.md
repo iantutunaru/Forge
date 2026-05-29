@@ -1,4 +1,4 @@
-![alt text][logo]: https://github.com/iantutunaru/Forge/blob/main/Assets/Imports/Logo/Forge%20Logo.png "Forge Logo"
+![alt text](https://github.com/iantutunaru/Forge/blob/main/Assets/Imports/Logo/Forge%20Logo.png "Forge Logo")
 
 **Forge** is a Unity practice project where I experiment with existing gameplay techniques while exploring new systems, tools, and workflows.
 
