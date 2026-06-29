@@ -9,9 +9,9 @@ namespace Runner
         [SerializeField] private Transform chunksParent;
         [SerializeField] private float chunkLength = 10f;
 
-        void Start()
+        private void Start()
         {
-            for (int i = 0; i < startingChunksAmount; i++)
+            for (var i = 0; i < startingChunksAmount; i++)
             {
                 float spawnPositionZ;
 
@@ -24,7 +24,7 @@ namespace Runner
                     spawnPositionZ = transform.position.z + (i * chunkLength);
                 }
                 
-                Vector3 chunkSpawnPosition = new Vector3(transform.position.x, transform.position.y, spawnPositionZ);
+                var chunkSpawnPosition = new Vector3(transform.position.x, transform.position.y, spawnPositionZ);
                 
                 Instantiate(chunkPrefab, chunkSpawnPosition, Quaternion.identity, chunksParent);
             }
