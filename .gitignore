@@ -77,4 +77,7 @@ ProjectSettings/EditorBuildSettings.asset
 ProjectSettings/ShaderGraphSettings.asset
 ProjectSettings/EditorBuildSettings.asset
 ProjectSettings/ShaderGraphSettings.asset
+
+# 3rd Party Assets that can't be distributed
 Assets/Imports/Models/POLYGON
+Assets/Imports/3rd Party
